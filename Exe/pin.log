@@ -1,4 +1,0 @@
-Pin 2.13 kit 65089
-E:  Could not find pinvm.dll. Need compatible pin.exe and pinvm.dll in the same directory
-A: Source\pin\winloader\util_winloader.cpp: LEVEL_BASE::BOOT_RECORD_INIT::InitPerImageBootRecord: 855: assertion failed: res == TRUE
-
