@@ -30,3 +30,10 @@ Test for Anti-Debugging
 - Code/SetUnhandledExceptionFilter.cpp
 - Code/SingleStep.cpp
 - Code/timeGetTime.cpp
+- Code/Self-Debugging.cpp
+- Code/Memory_BreakPoints.cpp
+- Code/Prefix.cpp
+
+### References
+1. https://www.codeproject.com/Articles/30815/An-Anti-Reverse-Engineering-Guide#DebugObjectHandle
+2. http://ruinick.tistory.com/category/Reversing/Anti%20Debugging
