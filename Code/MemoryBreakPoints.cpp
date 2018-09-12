@@ -34,9 +34,9 @@ bool MemoryBreakpointDebuggerCheck()
 		__asm
 		{
 			mov eax, pAllocation
-				// This is the address we'll return to if we're under a debugger
-				push MemBpBeingDebugged
-				jmp eax // Exception or execution, which shall it be :D?
+			// This is the address we'll return to if we're under a debugger
+			push MemBpBeingDebugged
+			jmp eax // Exception or execution, which shall it be :D?
 		}
 	}
 	__except (EXCEPTION_EXECUTE_HANDLER)
